@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#3B82F6" />
+  
+  <!-- Stylized 'S' representing healing/medical -->
+  <path d="M20.5 11.5C20.5 13.5 18.5 14.5 16 14.5C13.5 14.5 11.5 15.5 11.5 17.5C11.5 19.5 13.5 20.5 16 20.5C18.5 20.5 20.5 21.5 20.5 23.5" 
+        stroke="white" 
+        stroke-width="3" 
+        stroke-linecap="round"
+        fill="none" />
+  
+  <!-- Small cross symbol -->
+  <path d="M16 6V10M14 8H18" 
+        stroke="white" 
+        stroke-width="2" 
+        stroke-linecap="round" />
+</svg>

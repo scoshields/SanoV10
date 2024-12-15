@@ -1,0 +1,20 @@
+[build]
+  command = "npm run build && npm run build:functions"
+  publish = "dist"
+  functions = ".netlify/functions-build"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[dev]
+  framework = "#custom"
+  command = "npm run dev"
+  targetPort = 5173
+  port = 8888
+  publish = "dist"
+  autoLaunch = true

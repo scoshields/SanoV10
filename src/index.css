@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base responsive container */
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Ensure proper text sizing on mobile */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Improve touch targets on mobile */
+@media (max-width: 640px) {
+  button, 
+  select,
+  textarea {
+    min-height: 44px;
+  }
+}
